@@ -1,118 +1,39 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Larissa</title>
-  
-<style>
-  
-    body { 
-			background-image: url(https://imgur.com/82TgVwx.jpg);
-			background-position: center center;
-			background-repeat: repeat;
-			background-attachment: fixed;
-	
-			background-color: #999;
-  
-}
-    html {
-          margin: 0;
-  padding: 0;
-  font-family: exo, sans-serif;
-  
-    }
-    body {
-  font-family: 'Titillium Web'; 
-}
-    img {
-        padding-top: 10%;
-    width: 50%;
-    height: auto;
-        float: center;
-}
-    @media only screen and (min-width: 400px) {
-    img {
-    width: 10%;
-}
-}
-    .button {
-    background-color: #7289DA; 
-    border: none;
-    color: pink;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 200%;
-    margin: 4px 2px;
-    cursor: pointer;
-}
-    .button:hover {
-        font-size: 900%; 
-    }
-    .buttonclass {
-        padding-left: 90%;
-    }
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BobeeBeatz</title>
+    <link rel="shortcut icon" href="img/BoBeeBeatz.jpg" type="image/gif">
 
-    .button4 {border-radius: 20px;}
-    body {
-  font-family: 'Titillium Web'; 
-}
-div {
-  text-align: center;
-     font-family: 'Titillium Web'; 
-}
-button {
-  border: none;
-  padding: 15px 30px;
-  background-color: #B0BEC5;
-  font-size: 15px;
-  font-weight: bold;
-  color: pink;
-  margin: 8px;
-  outline: none;
-  border-radius: 5px;
-}
-but {
-  border: none;
-  
-  background-color: #B0BEC5;
-  font-size: 15px;
-  font-weight: bold;
-  color: pink;
-  margin: 8px;
-  outline: none;
-  border-radius: 5px;
-}
-    .grow {
-        background-color: #7289DA; 
-    border: none;
-    color: white;
-        font-size: 300%;
-    }
-.grow:hover {
-  transition: 0.5s;
-  transform: scale(1.2);
-}
-    p.title {
-        margin-top: 0;
-        font-size: 250%;
-        font-family: exo, sans-serif;
-        font-weight: bold;
-        
-    }
-
-  
-</style>
-</head>  
+    <link rel="stylesheet" href="css/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Radio+Canada:wght@500&display=swap" rel="stylesheet">
+</head>
 <body>
-<center>
-<img src="https://imgur.com/kmyGYp3.jpg"/>
-<p class="title" style="color:white;">Larissa</p>
-</center>
-  <div>
-    <a href="https://discord.com/api/oauth2/authorize?client_id=928386709874417685&permissions=8&scope=applications.commands%20bot"><button class="grow">Adicionar
-      </button></a>
-    <br><br><br>
-      </div>
+
+    <div class="guilds_div" id="guilds">
+        <a href="#/" class="back" id="back">×</a>
+        <h3 class="guilds_title">Guilds</h3>
+        <div class="paintings"></div>
+    </div>
+
+    <form action="" class="profile" id="profile">
+        <i class='bx bxs-moon'></i>
+        <img src="img/3.gif" class="nitro" alt="">
+        <img src="img/2.png" class="nitro" alt="">
+        <img src="img/1.png" class="nitro" alt="">
+        <img src="img/BoBeeBeatz.jpg" alt="">
+        <h3>BobeeBeatz#5896</h3>
+        <a href="https://github.com/HenGPlayZ/" target="_blank"><i class='bx bxl-github'></i></a>
+        <a href="https://discordapp.com/users/410380919212605440/" target="_blank"><i class='bx bxl-discord-alt' ></i></a>
+        <a href="https://t.me/jvp" target="_blank"><i class='bx bxl-telegram' ></i></a>
+
+        <a href="#/" class="btn" id="guildsButton">Guilds</a>
+    </form>
+
+    <script src="script.js"></script>
+    <script type="module" src="posts.js"></script>
 </body>
 </html>
